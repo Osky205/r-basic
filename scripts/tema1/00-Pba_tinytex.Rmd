@@ -1,0 +1,48 @@
+---
+title: "Prueba"
+author: "Oscar Rodriguez"
+date: "16/5/2021"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Formula: De formato maquina a formato analógico.!!
+
+$$\int_0^1x^2\ dx=\frac{1}{3}$$
+Observemos que hacer un Knit genera: Una carpeta, un .rmd y el .pdf o .html o .doc                     
+ 
+  00-Pba_tinytex_files        (Carpeta)
+  
+  00-Pba_tinytex.Rmd          (archivo.rmd)
+  
+  00-Pba_tinytex.pdf          (archivo.pdf)
+  
+  00-Pba_tinytext.html        (archivo.html)
+  
+
+ 
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
